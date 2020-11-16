@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript code is hear!!</title>
+</head>
+<body>
+	<h3>This is the  list of Employee </h3>
+	<h2>Our <span>company</span></h2>
+	<p>we trt to find employ 2 or (emp2)</p>
+	<p id="GPG"></p>
+	
+
+<script>
+//call funcion
+	var employee ={
+		details: function(){
+			return this.name +" "+this.id;
+		}
+	}
+	var emp1 = {
+      name :"shanto",
+      id :"123",
+
+	}	
+	var emp2 = {
+		name : "Reyad",
+		id:"456",
+	}
+	var x = employee.details.call(emp1);
+	document.getElementById("GPG").innerHTML= x;
+	
+	//simple function call
+	function book(){
+		var a = 10;
+	    var b = 10;
+	    var c = (a+b);
+	    document.write(c);
+
+
+	}
+	book();
+</script>
+
+
+<button onclick = "myfun()">Click me</button>
+<script>
+	//Event
+	function myfun(){
+		document.write("Welcome");
+	}
+</script>
+
+
+<form name = "example">
+	<input type="text" size="20" name="calculator">
+	<input type="button" name="b1" value="Calculate" onclick="cal()">
+	<input type="reset" name="b2" value="reset">	
+	Answer:<input type="text" size= "20" name="answer">
+</form>
+</body>
+<script>
+	
+	function cal(){
+		document.example.answer.value = eval(document.example.calculator.value)
+		
+	}
+</script>
+
+
+</html>

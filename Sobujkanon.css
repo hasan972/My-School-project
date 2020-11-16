@@ -1,0 +1,329 @@
+* { margin: 2px;padding: 10px;outline: 10px;}
+body{font-family:arile;font-size:20px;line-height:26px;
+color:#6D2B9C;text-align:center;
+background:url(ee/sakura.png)repeat fixed 0 0 #fff;
+position:relative;}
+.templete {
+    width: 1300px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    background: #4C0009;
+    padding: 20px; 
+	border: 2px solid #00ABEB;
+	
+	 
+}
+.clear{overflow:hidden;}
+input[type="text"], input[type="E-Mail"], input[type="password"] {
+    width: 350px;
+    padding: 20px;
+    margin-bottom: 4px;
+    border: 4px solid #4C0009;
+	border-radius: 8px;
+	color:#000000;
+	
+}
+input[type="submit"] {
+    padding: 9px 11px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+	border: 4px solid #4C0009;
+}
+input[type="submit"]:hover{background:#000000;color:#FFFFFF;font-size:25px;}
+.mainbody {
+    background: #005027;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-shadow: 6px 2px 0px #501;
+    font-style: italic;
+}
+.NAMESECTION {
+    background: #005027;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-shadow: 6px 2px 0px #501;
+    font-style: italic;
+}
+.NAMESECTION h1 {
+    margin-bottom: 4px;
+    padding-top: 21px;
+}
+.NAMESECTION h1 {
+    padding-right: 290px;
+}
+.LOGO{}
+.LOGO img{
+    width: 50px;
+    float: right;
+    border-radius: 31px;}
+.Social{}
+.Social img{float:left;
+width:281px;
+padding-left:10px;
+}
+
+.NAMESECTION h1{margin-bottom:30px;}
+.MANUSECTION{min-height:50px;}
+.MANUSECTION u1{padding:0;margin:0;list-style:none;}
+.MANUSECTION u1 li {
+    display: block;
+    float: left;
+    text-align: left;
+    background: #FF9800;
+    border-radius: 4px;
+	position:relative;
+}
+.MANUSECTION u1 li a{text-decoration:none;transition:.44s;-webkit-transition:.44s;-moz-transition:.44s;}
+.MANUSECTION u1 li a:hover {background:#000000;color:#FFFFFF;font-size:25px;}
+.MANUSECTION u1 li ul{position:absolute;left:-9999999px;z-index:999;}
+.MANUSECTION u1 li:hover ul{left:0px;}
+.MANUSECTION u1 li ul li {
+    border: 2px solid #FFFFFF;
+    width: 180px;
+}
+.MANUSECTION u1 li ul li a{}
+
+
+
+
+
+#active{background:#000000;color:#FFFFFF;font-size:25px;}
+.SHIFTSEC {
+    background: #005027;
+    width: 1300px;
+	 border-radius: 4px;
+   
+}
+
+.about {
+    background: #FAF381;
+    border-radius: 30px;
+}
+
+.about h1 {
+    border-bottom: 4px solid #4C0009;
+    color:#3879D9;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.about img {
+    width: 572px;
+    float: left;
+    border: 4px solid #C19A36;
+    background: #fff;
+    margin-right: 25px;
+	border-radius: 34px;
+}
+
+.about p {
+    font-size: 25px;
+    line-height: 26px;
+    margin-bottom: 80px;
+    text-align: justify;
+	color:#000000;
+
+}
+
+.contract{ background: #FAF381;
+    border-radius: 30px;}
+.contract h1 {
+    border-bottom: 4px solid #4C0009;
+    color:#3879D9;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.contract img{
+    width: 362px;
+    float: left;
+    border: 4px solid #C19A36;
+    background: #fff;
+	border-radius: 34px;
+	}
+.achivement{ background: #FAF381;
+    border-radius: 30px;}
+.achivement h1{ border-bottom: 4px solid #4C0009;
+    color:#3879D9;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 20px;}
+.achivement img{width: 362px;
+    float: left;
+    border: 4px solid #C19A36;
+    background: #fff;
+	border-radius: 34px;}
+.SHIFTSEC img {
+    
+    margin-left: 1px;
+    width: 1249px;
+    background: #4C0009;
+    padding: 10px;
+    border: 5px solid #005027;
+	border-radius: 15px;
+}
+
+.MORNINGSHIFT {
+    background: #4C0000;
+    float: left;
+    padding-left: 1px;
+    padding-top: 5px;
+    padding-bottom: 225px;
+    border-radius: 15px;
+}
+.MORNINGSHIFT u1{padding:0;margin:0;list-style:none;}
+.MORNINGSHIFT u1 li{ display: block;
+    float: left;
+    text-align: left;
+    background: #FF9800;
+    border-radius: 4px;}
+.MORNINGSHIFT u1 li a:hover {background:#000000;color:#FFFFFF;font-size:25px;}
+.MORNINGSHIFT u1 li a{text-decoration:none;transition:.44s;}
+.DAYSHIFT {
+    background: #4C0000;
+    float: right;
+    padding-left: 1px;
+    padding-top: 5px;
+    padding-bottom: 225px;
+	border-radius: 15px;
+}
+.DAYSHIFT u1{padding:0;margin:0;list-style:none;}
+.DAYSHIFT u1 li{ display: block;
+    float: left;
+    text-align: left;
+    background: #FF9800;
+    }
+.DAYSHIFT u1 li a:hover {background:#000000;color:#FFFFFF;font-size:25px;}
+.DAYSHIFT u1 li a{text-decoration:none;transition:.44s;}
+
+.FACALTYINOF{}
+.FACALTYINOF u1{padding:0;margin:0;list-style:none;}
+.FACALTYINOF u1 li{display:block;float:left;text-align:left;background:#FF9800; border-radius: 4px;}
+.FACALTYINOF u1 li a:hover{background:#000000;color:#FFFFFF;font-size:25px;}
+.FACALTYINOF u1 li a{text-decoration:none;transition:.44s; }
+.FAC { background: #FAF381;
+    border-radius: 30px;}
+.FAC h1{ border-bottom: 4px solid #4C0009;
+    color:#3879D9;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 20px;}
+.FAC img{ width: 541px;
+    float: left;
+    border: 4px solid #C19A36;
+    background: #fff;
+	border-radius: 34px;}
+.FAC p{font-size: 35px;
+    
+	color:#000000;}
+.box{background: #9E6015;
+    border-radius: 40px;}
+.box h1{border-bottom: 4px solid #4C0009;
+    color:#3879D9;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 20px;}
+.box img {
+    width: 494px;
+    float: left;
+    border: 11px solid #C19A71;
+    background: #FFF;
+    border-radius: 34px;
+}
+.box img:hover{opacity:0.6}
+.ADDRESS {
+    padding: 20px;
+}
+.ADDRESS h1{background:#FF9800;font-size:25px;}
+.sideicon {
+    position: fixed;
+    left:0px;
+    top: 106px;
+    width: 109px;
+}
+.sideicon img{width:80px;}
+.DAYY u1{padding:0;margin:0;list-style:none;}
+.DAYY u1 li {
+    display: block;
+    float: right;
+    text-align: left;
+    background: #FF9928;
+    padding: 43px;
+    border-radius: 93px;
+}
+.DAYY u1 li a:hover {background:#000000;color:#FFFFFF;font-size:25px;}
+.DAYY u1 li a{text-decoration:none;}
+.MOR u1{padding:0;margin:0;list-style:none;}
+.MOR u1 li {
+    display: block;
+    float: right;
+    text-align: left;
+    background: #FF9928;
+    padding: 43px;
+    border-radius: 93px;
+}
+.MOR u1 li a:hover {background:#000000;color:#FFFFFF;font-size:25px;}
+.MOR u1 li a{text-decoration:none;}
+.Morn{background: #9E6015;
+    border-radius: 40px;}
+.Morn h1{border-bottom: 4px solid #4C0009;
+    color:#3879D9;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 20px;}
+.Morn img {
+    width: 1251px;
+    float: left;
+    border: 11px solid #C19A71;
+    background: #FFF;
+    border-radius: 34px;
+}
+.Morn img:hover{opacity:0.6}
+.day{background: #9E6015;
+    border-radius: 40px;}
+.day h1{border-bottom: 4px solid #4C0009;
+    color:#3879D9;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 20px;}
+.day img {
+    width: 1251px;
+    float: left;
+    border: 11px solid #C19A71;
+    background: #FFF;
+    border-radius: 34px;
+}
+.day img:hover{opacity:0.6}
+/*example*/
+.about2 {
+    height: 1005px;
+    width: 1283px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.about2 img {
+    height: 1000px;
+    width: 1277px;
+}
+.shadow{background:rgba(0,0,0,.6) ;
+height:100%;
+width:100%;
+position:absolute;
+ top:-100%;
+ transition:.6s;}
+.shadow h1 {
+    font-size: 100px;
+    color: #EB0158;
+    transition: .6s;
+    margin-top: 620px;
+	border:0px solid #EB0158;
+}
+.about2:hover .shadow{top:0}
+
+
